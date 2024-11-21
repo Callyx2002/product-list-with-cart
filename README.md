@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Product list with cart](https://your-live-site-url.com)
+- Live Site URL: [Product list with cart]((https://callyx2002.github.io/product-list-with-cart/))
 
 ### Built with
 
