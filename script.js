@@ -58,10 +58,12 @@ function displayImage() {
   window.addEventListener("resize", changeMedia);
 }
 displayImage();
-// sitePreload.classList.add("hidden");
-window.addEventListener("load", () => {
-  sitePreload.classList.add("hidden");
-});
+setTimeout(function () {
+  sitePreload.classList.add("hidden")
+}, 5500);
+//window.addEventListener("load", () => {
+ // sitePreload.classList.add("hidden");
+//});
 
 //initialize the flag and cart array to have all zeros
 for (let i = 0; i < images.length; i++) {
